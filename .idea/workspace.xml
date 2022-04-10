@@ -4,15 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7d0b2b1-3d2a-456f-b020-92d0a8b21836" name="Changes" comment="">
+    <list default="true" id="d7d0b2b1-3d2a-456f-b020-92d0a8b21836" name="Changes" comment="up to header right icon">
+      <change afterPath="$PROJECT_DIR$/components/UI/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/expenses-context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ExpenseItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ExpenseItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ExpensesOutput.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ExpensesOutput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/AllExpenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/AllExpenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/ManageExpensess.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/ManageExpensess.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/RecentExpenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/RecentExpenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/date.js" beforeDir="false" afterPath="$PROJECT_DIR$/util/date.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,11 +45,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ReactNative\expenseManageApp\components" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -45,8 +67,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648298274251</updated>
-      <workItem from="1648298283608" duration="1652000" />
+      <workItem from="1648298283608" duration="2013000" />
+      <workItem from="1648385923776" duration="2825000" />
+      <workItem from="1648395146823" duration="8484000" />
+      <workItem from="1648472262953" duration="3241000" />
+      <workItem from="1649218231981" duration="8883000" />
+      <workItem from="1649427281190" duration="3324000" />
+      <workItem from="1649444457838" duration="6268000" />
+      <workItem from="1649610424587" duration="1331000" />
     </task>
+    <task id="LOCAL-00001" summary="up to header right icon">
+      <created>1648314779263</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648314779263</updated>
+    </task>
+    <task id="LOCAL-00002" summary="up to header right icon">
+      <created>1648315033742</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648315033742</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -62,5 +106,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="up to header right icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="up to header right icon" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

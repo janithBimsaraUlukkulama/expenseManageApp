@@ -4,20 +4,11 @@ import ExpensesList from "./ExpensesList";
 
 import ExpensesSummary from "./ExpensesSummery";
 
-const DUMMY_EXPENSES = [
-    { id: 'e1', description: 'description1', amount: 1.99, date: new Date('2022-02-01') },
-    { id: 'e2', description: 'description2', amount: 2.49, date: new Date('2022-02-02') },
-    { id: 'e3', description: 'description3', amount: 5.00, date: new Date('2022-02-03') },
-    { id: 'e4', description: 'description4', amount: 9.00, date: new Date('2022-02-04') },
-    { id: 'e5', description: 'description5', amount: 9.99, date: new Date('2022-02-05') }
-]
-
-function ExpensessOutput({ expenses, expencespPeriod }) {
+function ExpensessOutput({ expenses, expensesPeriod }) {
     return (
         <View style={styles.container}>
-            {/* <ExpensesSummary expenses={expenses} periodName={expencespPeriod} /> */}
-            <ExpensesSummary expenses={DUMMY_EXPENSES} periodName={expencespPeriod} />
-            <ExpensesList expenses={DUMMY_EXPENSES} />
+            <ExpensesSummary expenses={expenses} periodName={expensesPeriod} />
+            <ExpensesList expenses={expenses} />
         </View>
 
     );
